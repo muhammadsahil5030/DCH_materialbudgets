@@ -3,7 +3,11 @@
 #### Install DD4hep with GEANT4 and LCIO
 To install the DD4hep, go to the DD4hep repository.
 
-### 2. Cloning lcgeo
+### 2. Initialize defendencies
+```
+source ~/dd4hep_ws/DD4hep-install/bin/thisdd4hep.sh
+```
+### 3. Cloning lcgeo
 ```
 cd /path/to/directory/dd4hep_installed
 
@@ -13,10 +17,6 @@ cd lcdeo
 mkdir build && cd build
 ```
 
-### 3. Initialize defendencies
-```
-source ~/dd4hep_ws/DD4hep-install/bin/thisdd4hep.sh
-```
 ### 4. build and install
 ```
 cmake .. \
