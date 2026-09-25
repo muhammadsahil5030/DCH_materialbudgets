@@ -5,11 +5,11 @@ To install the DD4hep, go to the DD4hep repository.
 
 ### 2. Initialize defendencies
 ```
-source ~/dd4hep_ws/DD4hep-install/bin/thisdd4hep.sh
+source source /cvmfs/sw-nightlies.hsf.org/key4hep/setup.sh
 ```
 ### 3. Cloning lcgeo
 ```
-cd /path/to/directory/dd4hep_installed
+cd /path/to/directory
 
 git clone https://github.com/iLCSoft/lcgeo.git
 
@@ -29,9 +29,3 @@ make -j$(nproc)
 ```
 make install
 ```
-## Build on Recas
-To build it on Recas fisrt we need to source the ROOT
-```
-source /cvmfs/sft.cern.ch/lcg/releases/ROOT/6.22.00-dd202/x86_64-centos7-gcc10-opt/bin/thisroot.sh
-```
-Then add the line to bashrc
